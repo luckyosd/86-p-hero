@@ -70,12 +70,12 @@ const fetchdatabycategories = (category, sortedview) => {
 
                 const newv = document.createElement('div');
 
-                newv.innerHTML = `<div class="card w-96  bg-base-100 shadow-xl">
+                newv.innerHTML = `<div class="card w-96 h-[300px] space-x-2 bg-base-100 shadow-xl">
                 <figure><img src="${video.thumbnail}" alt="Shoes" />
                     <h6></h6>
                 </figure>
-                <div class="card-body">
-                <div class="flex space-x-3">
+                <div class="card-body ">
+                <div class="flex space-x-3 ">
                     <div>
                         <img class="w-12 h-12 rounded-full" src="${video.authors[0].profile_picture}" alt="">
                     </div>
